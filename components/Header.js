@@ -19,6 +19,7 @@ import HeaderIcon from './HeaderIcon';
 function Header() {
     return (
         <div className="sticky top-0 bg-white flex items-center lg:px-5 shadow-md">
+            {/* Left Header Icons */}
             <div className="flex items-center">
                 <Image src="https://links.papareact.com/5me" width={40} 
                 height={40}
@@ -31,6 +32,7 @@ function Header() {
                     placeholder="Search Facebook"/>
                 </div>
             </div>
+            {/* Middle Header Icons */}
             <div className="flex justify-center flex-grow">
                 <div className="flex space-x-6 md:space-x-2">
                     <HeaderIcon active Icon={HomeIcon}/>
@@ -40,10 +42,13 @@ function Header() {
                     <HeaderIcon Icon={UserGroupIcon}/>
                 </div>
             </div>
-
-            <div>
+            {/* Right Header icons */}
+            <div className="flex items-center sm: spacce-x-2 justify-end">
                 {/* <Image/> */}
                 <p className="whitespace-nowrap font-semibold pr-3">Benzo</p>
+                <ViewGridIcon className="icon"/>
+                <ChatIcon className="icon"/>
+                <BellIcon className="icon"/><ChevronDownIcon className="icon"/>
             </div>
         </div>
     );
