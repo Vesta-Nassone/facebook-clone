@@ -14,6 +14,7 @@ import {
     SearchIcon,
     ShoppingCartIcon,
 } from "@heroicons/react/outline";
+import HeaderIcon from './HeaderIcon';
 
 function Header() {
     return (
@@ -28,6 +29,11 @@ function Header() {
                     className="flex ml-2 items-center bg-transparent outline-none placeholder-gray-500"
                     type="text" 
                     placeholder="Search Facebook"/>
+                </div>
+            </div>
+            <div className="flex justify-center flex-grow">
+                <div>
+                    <HeaderIcon Icon={HomeIcon}/>
                 </div>
             </div>
         </div>
