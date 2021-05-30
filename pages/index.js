@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Facebook</title>
       </Head>
-      <Header></Header>
+      <Header/>
     </div>
   )
 }
