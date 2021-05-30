@@ -18,7 +18,7 @@ import HeaderIcon from './HeaderIcon';
 
 function Header() {
     return (
-        <div>
+        <div className="sticky top-0 bg-white flex items-center lg:px-5 shadow-md">
             <div className="flex items-center">
                 <Image src="https://links.papareact.com/5me" width={40} 
                 height={40}
