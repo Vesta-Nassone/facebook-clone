@@ -1,4 +1,5 @@
 import {useSession} from "next-auth/client";
+import SidebarRow from "../components/SidebarRow"
 import {
     ChevronDoubleDownIcon,
     ShoppingBagIcon,
