@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {useSession} from "next-auth/client";
 import SidebarRow from "../components/SidebarRow"
 import {
@@ -22,17 +23,22 @@ function Sidebar() {
             title="Friends"/>
             <SidebarRow 
             Icon={UserGroupIcon}
-            title="Friends"/><SidebarRow 
+            title="Groups"/>
+            <SidebarRow 
             Icon={ShoppingBagIcon}
-
-            title="Friends"/><SidebarRow 
+            title="Marketplace"/>
+            
+            <SidebarRow 
             Icon={DesktopComputerIcon}
-            title="Friends"/><SidebarRow 
+            title="Watch"/><SidebarRow 
             Icon={CalendarIcon}
-            title="Friends"/>
+            title="Events"/>
+            <SidebarRow 
+            Icon={ClockIcon}
+            title="Memories"/>
             <SidebarRow 
             Icon={ChevronDoubleDownIcon}
-            title="Friends"/>
+            title="See More"/>
         </div>
     )
 }
