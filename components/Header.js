@@ -52,11 +52,12 @@ function Header() {
                 <Image
                 onClick={signOut}
                 className="rounded-full cursor-pointer"
-                src={session.user.image}
+                // src={session.user.image}
+                src="https://links.papareact.com/5me"
                 width={40}
                 height={40}
                 layout="fixed"/>
-                <p className="whitespace-nowrap font-semibold pr-3">{session.user.name}</p>
+                <p className="whitespace-nowrap font-semibold pr-3">{/* {session.user.name} */}Benzo</p>
                 <ViewGridIcon className="icon"/>
                 <ChatIcon className="icon"/>
                 <BellIcon className="icon"/><ChevronDownIcon className="icon"/>
