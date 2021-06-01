@@ -38,7 +38,7 @@ function Header() {
             </div>
             {/* Middle Header Icons */}
             <div className="flex justify-center flex-grow">
-                <div className="flex space-x-6 md:space-x-2">
+                <div className="flex items-center space-x-6 md:space-x-2">
                     <HeaderIcon active Icon={HomeIcon}/>
                     <HeaderIcon Icon={FlagIcon}/>
                     <HeaderIcon Icon={PlayIcon}/>
@@ -47,7 +47,7 @@ function Header() {
                 </div>
             </div>
             {/* Right Header icons */}
-            <div className="flex items-center sm: spacce-x-2 justify-end">
+            <div className="flex items-center sm: space-x-2 justify-end">
                 {/* <Image/> */}
                 <Image
                 onClick={signOut}
