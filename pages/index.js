@@ -6,7 +6,7 @@ import Login from '../components/Login';
 import Sidebar from '../components/Sidebar';
 
 export default function Home(session) {
-  // if(!session) return <Login/>;
+  if(!session) return <Login/>;
   return (
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
